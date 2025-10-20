@@ -1,0 +1,529 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+ 
+    }
+        header{
+            background: rgb(22, 82, 52);
+            color: white;
+            padding: 20px;
+            min-height: 10px;
+            display: flex;
+            align-items: center;
+        }
+            header .logo{
+            width: 60px;
+            height: auto;
+            display: block;
+            margin: 0;
+            margin-right: 20px; 
+            margin-left: 20px;
+        }
+    
+            header h1{
+            font-size: 28px;
+            text-align: left;
+            margin: 0;
+            flex: 1;
+        }
+    
+            nav{
+                background-color:  rgb(44, 94, 69);
+                margin-left: auto;
+                margin: 0;
+                padding: 0px;
+                border-radius: 10px;
+        }
+            nav ul{
+                list-style: none;
+                margin: 0;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+        }
+            nav ul li {
+                position: relative;
+                margin: 0 15px;
+        }
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+                padding: 8px 12px;
+                display: block;
+        }
+            nav ul li a:hover {
+                background: rgb(55, 72, 60);
+                border-radius: 5px;
+        }
+
+            nav ul li ul {
+                display: none;
+                position: absolute;
+                top: 35px;
+                left: 0%;
+                background: #2c3e50;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                border-radius: 5px;
+        }
+            nav ul li ul li{
+                margin: 0;
+                width: 150px;
+        }
+            nav ul li ul li a{
+                padding: 10px;
+                font-weight: normal;
+        }
+            nav ul li:hover ul{
+                display: block;
+        }
+        
+    .fotokepsek{
+        width: 200px;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .fotokepsek:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    .sambutan-content{
+        display: flex;
+        margin: auto;
+    }
+
+    .setting2{
+        padding: 20px;
+        display: flex;
+        height: 250px;
+        margin-bottom: 100px;
+    }
+
+    section{
+        margin: 20px;
+        flex: 4px;
+    }
+
+    .setting3{
+        background-color:  rgb(22, 82, 52);
+        color: white;
+        font-size: 12pt;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+
+    aside{
+        background-color: rgb(26, 96, 68);
+        border-top-right-radius: 10px;
+        padding: 20px;
+        color: white;
+        height: 100px;
+        line-height: 16px;
+    }
+
+    footer{
+        background-color: rgb(22, 82, 52) ;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: px;
+    }
+    
+    /* Guru dan Staff */
+.namaguru{
+    gap: 20px;
+    display: flex;
+    height: 250px;
+    margin-bottom: 100px;
+}
+
+.gurudanstaff{
+    margin-top: 2%;
+    text-align: center;
+    color: rgb(22, 82, 52);
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.N section, article {
+    flex: 1 1 0;
+    min-width: 200px;
+    max-width: 600px;
+    min-height: 30px;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.N article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    border-radius: 8px;
+}
+.N article h3{
+    text-align: center;
+}
+.N article p,
+.N main h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+.N article {
+    text-align: center;
+}
+
+.namaguru section{
+    background-color: rgb(55, 72, 60);
+    color: white;
+    font-size: 11pt;
+    border-radius: 10px;
+    padding: 20px;
+    height: 300px;
+}
+
+.banner{
+    background-image: url('webtiga/bangunansmanti.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.banner p{
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: 30pt;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: black 3px 2px 6px;
+    animation: banner 4s ease;
+    cursor: pointer;
+    padding-top: 3em;
+}
+
+.banner p:hover{
+    color: #788592;   
+    transition: color 0.3s ease;
+}
+
+    @keyframes banner{
+        0%{
+            transform: translateY(40px);
+            opacity: 0;
+        }
+
+        50%{
+            transform:translateY(0px);
+            left: 50px;
+            opacity: 1;
+        }
+
+        100%{
+            transform:translateY(0px);
+            left: 100px;
+            opacity: 1;
+        }
+    }
+    
+
+/* Form Kontak */
+.form-kontak {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(22, 82, 52);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.kontak-section h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 33px;
+    color: rgb(22, 82, 52);
+    margin-bottom: 30px;
+}
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.form-table td {
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.form-table label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.form-table input,
+.form-table textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: white;
+    color: #333;
+}
+
+.form-table textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.submit-row {
+    text-align: center;
+    padding-top: 15px !important;
+    border-bottom: none !important;
+}
+
+.form-table button {
+    background-color: rgb(51, 115, 83);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+}
+
+.form-table button:hover {
+    background-color:rgb(55, 72, 60);
+}
+
+/*sambutan kepsekkk*/
+
+.sambutan-kepsek{
+    color: black;
+    font-size: 12pt;
+    place-items: center;
+    margin: 50px;
+    margin-top: 100px;
+}
+
+.kepsek{
+    text-align: center;
+}
+.sambutan-content{
+    background-color: rgb(22, 82, 52);
+    color: white;
+    font-size: 12pt;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Halaman Berita */
+
+.berita-main{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+    display: block;
+}
+.kegiatan-section1{
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+}
+
+.akanberlangsung {
+    color: rgb(22, 82, 52);
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.kegiatan-item1 {
+    background-color: rgb(55, 72, 60);
+    color: white;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    margin-left: 0px;
+}
+
+.kegiatan-item {
+    background-color: rgb(55, 72, 60);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    display: flex;
+    width: 100px;
+}
+
+.kegiatan-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.kegiatan-item p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.foto-dokumentasi {
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.foto-dokumentasi img {
+    width: 200px;
+    height: 100ppx;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.selengkapnya{
+    font-size: 14px;
+    margin-top: 0px;
+    text-decoration: none;
+    color: white;
+}
+
+.selengkapnya:hover{
+    color: #97afc8;
+}
+
+.waktu-posting {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+    font-style: italic;
+    text-align: right;
+    margin-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+}
+
+
+/* Visi dan Misi Sekolah */
+
+.setting4{
+    text-align: center;
+    color:  rgb(22, 82, 52);
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.setting5{
+    margin-left: 200px;
+    border-top: 4px solid rgba(22, 82, 52);
+    display: inline-block;
+    margin-right: 200px;
+    color: rgb(22, 82, 52);
+    font-size: 20px;
+}
+
+.setting5 h4{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+/* Sejarah Sekolah */
+.setting6{
+    color:  rgb(22, 82, 52);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.setting7{
+    text-align: justify;
+    margin-left: 200px;
+    border-top: 4px solid rgba(22, 82, 52);
+    display: inline-block;
+    margin-right: 200px;
+    color: rgb(22, 82, 52);
+    font-size: 20px;
+    padding-top: 20px;
+    border-bottom: 4px solid rgb(22, 82, 52);
+    padding-bottom: 20px;
+}
+
+.setting8{
+    text-align: justify;
+    margin-left: 200px;
+    border-top: 4px solid rgba(22, 82, 52);
+    display: inline-block;
+    margin-right: 200px;
+    color: rgb(22, 82, 52);
+    font-size: 20px;
+    padding-top: 20px;
+    border-bottom: 4px solid rgb(22, 82, 52);
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+}
+
+/* Halaman Berita Festival Budaya */
+
+.setting9{
+    color: rgb(22, 82, 52);
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.setting10{
+    background-color: rgb(51, 115, 83);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: justify;
+}
+
+.iyy{
+    border-radius: 10px;
+    margin-left: 320px;
+    width: 800px;
+    margin-right: 200px;
+}
+.setting10 a{
+    color: white;
+    background-color: rgb(22, 82, 52);
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 90px;
+    font-size: 15px;
+    display: inline;
+    font-weight: bold;
+}
+
+.setting10 a:hover{
+    background-color: rgb(55, 72, 60);
+}
